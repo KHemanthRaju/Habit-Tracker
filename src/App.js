@@ -1,11 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { AppRoutes } from "./routes/AppRoutes";
+import { AppLayout } from "./components/Layout/AppLayout";
 
 function App() {
   return (
     <div className="App">
-      <AppRoutes />
+      <AppLayout />
     </div>
   );
 }

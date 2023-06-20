@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 import "../Header/Header.css";
 
-const Header = () => {
+export const Header = () => {
   return (
     <nav className="navigation">
       <NavLink className={"link"} to="/">
